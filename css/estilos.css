@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colorBlanco{
+    color: #ffffff;
+}
+.colorGris{
+    color: #9A9EA1;
+}
+.colorVerde{
+    color: #29A746;
+}
+.logoNav{
+    background-color: #353A40;
+    font-size: 1.2rem;
+    height: 115px;
+}
+h2{
+    display: inline-block;
+}
+.enlacesHeader{
+    text-align: right;
+} 
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: left;
+    text-align: center;
+    margin: 0 0 0 5px;
+}
+.linkNav{
+    text-decoration: none;
+}
+.encabezado{
+    height: 782px;
+    /* background-image: url("../assets/img/ba1.jpg"); */
+    background-image: linear-gradient(to right, #000000ce, #00000093, #0000005e, #ffffff3a), url("../assets/img/ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fbfbfbd2;
+}
+.conoce {
+    text-align: center;
+    font-size: medium;
+    margin: 10px;
+}
+.orador{
+    font-weight: 50;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.mediaTarjetas{
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.tarjetas{
+    /* background-color: gray; */
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    width: 30%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+    height: 80%;
+}
+.tarjetas img{
+    width: 100%;
+    height: 60%;
+    border-radius: 5px 5px 0px 0px;
+    object-fit: fill;   
+}
+.cuerpoTarjeta{
+    margin: 10px;
+}
+.cuerpoTarjeta h4{
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.tituloLenguaje{
+    margin-bottom: 10px;
+}
+.colorAmarillo{
+    background-color: #FEC106;
+    color: #000000;
+    padding: 5px;
+}
+.colorCeleste{
+    background-color: #17A2B7;
+    color: #ffffff;
+    padding: 5px;
+}
+.colorGray{
+    background-color: #6C757E;
+    color: #ffffff;
+    padding: 5px;
+}
+.colorRed{
+    background-color: #DD3647;
+    color: #ffffff;
+    padding: 5px;
+}
+.tituloNombre{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.lugarFecha {
+    width: 100%;
+    display: flex;
+    border: 1px solid #000000;
+}
+.playa{
+    width: 50%;
+}
+.textoLugar{
+    width: 50%;
+    color: #ffffff;     
+    text-decoration: none;  
+    background-color: #353A40;
+    padding: 10px 10px;
+}
+.textoLugar .botonConoce{
+    color: #ffffff;
+    text-decoration: none;
+} 
+
+.formulario{
+    background-color: gray;
+    text-align: center;
+}
+.footer{
+    background-image: linear-gradient(to right, #1d3744, #1d3c4c, #1d4154, #1c465c, #1c4b65);
+    height: 120px;
+    text-align: center;
+}
+footer ul li{
+    list-style:none;
+    display: inline-block;
+    height: auto;
+    width: 90px;
+    margin: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.lnkFooter{
+    text-decoration: none;
+    text-align: center;
+}
+

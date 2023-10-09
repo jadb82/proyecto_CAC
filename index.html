@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conf Bs As</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+  <body>
+    <header class="encabezado">
+      <section class="logoNav">
+        <a href="#">
+          <img src="./assets/img/codoacodo.png" alt="logo de codo a codo 4.0" width="110px"/>
+        </a>
+          <h2 class="colorBlanco tituloHeader">Conf Bs As</h2>   
+        <div class="enlacesHeader">
+          <nav>
+            <ul>
+                <li><a class="colorBlanco  linkNav"  href="#conferencia">La Conferencia</a></li>
+                <li><a class="colorGris linkNav"    href="#oradores">Los Oradores</a></li>
+                <li><a class="colorGris linkNav"    href="#lugarFecha">El Lugar y La Fecha</a></li>
+                <li><a class="colorGris linkNav"    href="#formulariOrador">Conviertete en orador</a></li>
+                <li><a class="colorVerde linkNav "   href="./pages/tickets.html">Comprar tickets</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <section>
+        <h1>Conferencia de Buenos Aires</h1>
+        <p>
+          Bs AS llega por primera vez a Argentina. Un evento para compartir con
+          nuestra comunidad conocimientos y experiencias de los expertos que
+          estan creando el futuro de Internet. Ven a conocer a miembros del
+          evento, a otros estudiantes de Codo a Codo y los oradores de primer
+          nivel que tenemos para ti. Te eperamos!
+        </p>
+        <a href="">Quiero ser orador</a>
+        <a href="">Comprar Tickets</a>
+      </section>
+    </header>
+    <main>
+      <section id="oradores" >
+        <div class="conoce">
+          <h2>
+            <div class="orador">CONOCE A LOS</div>
+            ORADORES
+          </h2>
+        </div>
+        <div class="mediaTarjetas">
+        <div class="tarjetas">
+          <img src="assets/img/steve.jpg" alt="Steve Jobs tomandose de manos" loading="lazy"/>
+          <div class="cuerpoTarjeta">
+            <h4 class="colorAmarillo">JavaScript</h4>
+            <h4 class="tituloLenguaje colorCeleste">React</h4>
+            <h3 class="tituloNombre">Steve Jobs</h3>
+            <p>Steven Paul Jobs fue un empresario, diseñador industrial, magnate empresarial, 
+              propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple y 
+              máximo accionista individual de The Walt Disney Company. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="tarjetas">
+          <img src="./assets/img/bill.jpg" alt="Bill Gates" loading="lazy"/>
+          <div class="cuerpoTarjeta">
+            <h4 class="colorAmarillo">JavaScript</h4>
+            <h4 class="tituloLenguaje colorCeleste">React</h4>
+            <h3 class="tituloNombre">Bill Gates</h3>
+            <p>¿Qué fue lo que hizo Bill Gates?
+              Microsoft
+              Conocido como Bill Gates. Fue un empresario, informático y filántropo estadounidense. 
+              Fundó la compañía de software Microsoft junto con Paul Allen. 
+              Desarrolló el sistema operativo MS-DOS en 1981, que posteriormente se convirtió en Windows 3.1 en 1992.</p>
+          </div>
+        </div>
+        <div class="tarjetas">
+          <img src=".//assets/img/ada.jpeg" alt="Ada Lovelace" loading="lazy"/>
+          <div class="cuerpoTarjeta">
+            <h4 class="colorGray">Negocios</h4>
+            <h4 class="tituloLenguaje colorRed">Startups</h4>
+            <h3 class="tituloNombre">Ada Lovelace</h3>
+            <p>Ada Lovelace, cuyo nombre  completo era Augusta Ada King,  nació el 10 de diciembre de 1815 en Londres, Reino Unido, 
+              y falleció el 27 de noviembre de 1852 en la misma ciudad. Fue una matemática y escritora británica conocida 
+              por su trabajo pionero en el campo de la programación y su colaboración con Charles.</p>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="lugarFecha">
+        <div class="playa"> 
+          <img src="./assets/img/honolulu.jpg" alt="Mar del Plata" />
+        </div>
+        <div class="textoLugar">
+          <h2>Buenos Aires - Octubre</h2>
+          <p>
+            Buenos Aires es la provincia y localidad más grande del estado de
+            Argentina, en los Estados Unidos. Honolulu es las mas sureña de entre
+            las princiaplaes ciudades estadounidenses. Aunque el nombre de
+            Honolulu se refiere al área urbana de la costa sureste de la isla de
+            Oahu, la ciudad y el condado de honolulu ha formado una ciudad-condado
+            consolidad que cubre toda la ciudad (aproximadamente 600 km^2 de
+            superficie)
+          </p>
+          <div class="botonConoce">
+            <a href="./pages/404.html">Conocé más</a>
+          </div>
+        </div>
+      </section>
+      <section class="formulario">
+        <h2>
+          <div>CONVIERTE EN UN</div>
+          ORADOR
+        </h2>
+        <p>
+          Anótate como orador para dar una charla ignite. Cuentanos que quieres
+          hablar!
+        </p>
+        <form action="./pages/404.html" method="get">
+          <div>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Nombre"
+              required
+            />
+            <input
+              type="text"
+              id="apellido"
+              name="apellido"
+              placeholder="Apellido"
+              required
+            />
+          </div>
+          <div>
+            <textarea
+              id="comentario"
+              name="comentario"
+              cols="55"
+              rows="5"
+              placeholder="Sobre qué quieres hablar?"
+            ></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Enviar Formulario" />
+          </div>
+        </form>
+        <p>Recuerda incluir un titulo para la charla</p>
+      </section>
+    </main>
+    <aside>
+      <div class="mapaGoogle">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.546559032695!2d-58.405312239681145!3d-34.60070616728238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabfe23f5e3b%3A0x6f90fe1eadb235cf!2sMuseo%20del%20Agua%20y%20de%20la%20Historia%20Sanitaria!5e0!3m2!1ses-419!2sar!4v1693756576176!5m2!1ses-419!2sar"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </aside>
+    <footer class="footer">
+      <div class="">
+        <nav>
+          <ul>
+            <li><a class="colorBlanco lnkFooter" href="">Preguntas Frecuentes</a></li>
+            <li><a class="colorBlanco lnkFooter" href="">Contáctanos</a></li>
+            <li><a class="colorBlanco lnkFooter" href="">Prensa</a></li>
+            <li><a class="colorBlanco lnkFooter" href="">Conferencias</a></li>
+            <li><a class="colorBlanco lnkFooter" href="">Términos y condiciones</a></li>
+            <li><a class="colorBlanco lnkFooter" href="">Privacidad</a></li>
+            <li><a class="colorBlanco lnkFooter" href="">Estudiantes</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
